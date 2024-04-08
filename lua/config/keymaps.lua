@@ -46,4 +46,5 @@ mapKey('>', 'v><Esc>', 'n')
 mapKey('<', '<gv', 'v')
 mapKey('>', '>gv', 'v')
 
-
+-- set cursorline highlight
+vim.opt.cursorline = true
