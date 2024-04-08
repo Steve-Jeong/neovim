@@ -2,7 +2,7 @@ local mapKey = require("utils.keyMapper").mapKey
 
 
 -- Neotree toggle
-mapKey('<leader>e', ':Neotree toggle<cr>')
+mapKey('<leader>e', ':NvimTreeOpen<cr>')
 
 -- pane navigation
 mapKey('<C-h>', '<C-w>h')  -- Left (Ctrl+h를 누르면, Ctrl+w,h를 누른 효과)
@@ -50,4 +50,6 @@ mapKey('>', 'v><Esc>', 'n')
 mapKey('<', '<gv', 'v')
 mapKey('>', '>gv', 'v')
 
+-- quit shortcut
+mapKey('<C-x>', ':q<cr>')
 
