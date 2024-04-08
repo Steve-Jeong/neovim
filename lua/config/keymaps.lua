@@ -35,7 +35,7 @@ vim.api.nvim_create_autocmd({"InsertLeave"}, {
     group = "SetLineNumbers",
     callback = function()
         vim.opt.relativenumber = true
-        vim.opt.number = false
+        vim.opt.number = true
     end
 })
 -- <<<=== line number setting end ===
@@ -46,5 +46,4 @@ mapKey('>', 'v><Esc>', 'n')
 mapKey('<', '<gv', 'v')
 mapKey('>', '>gv', 'v')
 
--- set cursorline highlight
-vim.opt.cursorline = true
+
