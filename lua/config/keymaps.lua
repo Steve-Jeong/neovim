@@ -6,9 +6,13 @@ mapKey('<leader>e', ':Neotree toggle<cr>')
 
 -- pane navigation
 mapKey('<C-h>', '<C-w>h')  -- Left (Ctrl+h를 누르면, Ctrl+w,h를 누른 효과)
+mapKey('<C-Left>', '<C-w>h')  -- Left (Ctrl+h를 누르면, Ctrl+w,h를 누른 효과)
 mapKey('<C-j>', '<C-w>j')  -- Down 
+mapKey('<C-Down>', '<C-w>j')  -- Down 
 mapKey('<C-k>', '<C-w>k')  -- Up
+mapKey('<C-Up>', '<C-w>k')  -- Up
 mapKey('<C-l>', '<C-w>l')  -- Right
+mapKey('<C-Right>', '<C-w>l')  -- Right
 
 -- clear search highlight
 mapKey('<leader>h', ':nohlsearch<CR>')
