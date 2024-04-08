@@ -2,7 +2,7 @@ return {
   'glepnir/nerdicons.nvim', 
   cmd = 'NerdIcons', 
   config = function() 
-    require('nerdicons').setup({{
+    require('nerdicons').setup({
 --      border = 'single',       -- Border
 --      prompt = '󰨭 ',           -- Prompt Icon
 --      preview_prompt = ' ',   -- Preview Prompt Icon
@@ -10,6 +10,6 @@ return {
 --      down = '<C-n>',          -- Move down in preview
 --      up = '<C-p>',            -- Move up in preview
 --      copy = '<C-y>',          -- Copy to the clipboard
-    }}) 
+    }) 
   end
 }

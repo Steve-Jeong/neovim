@@ -40,4 +40,10 @@ vim.api.nvim_create_autocmd({"InsertLeave"}, {
 })
 -- <<<=== line number setting end ===
 
+-- indent / unindent
+mapKey('<', 'v<<Esc>', 'n')
+mapKey('>', 'v><Esc>', 'n')
+mapKey('<', '<gv', 'v')
+mapKey('>', '>gv', 'v')
+
 
