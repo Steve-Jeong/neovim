@@ -14,9 +14,9 @@ opt.incsearch = true
 opt.ignorecase = true
 opt.smartcase = true
 
--- visual
+-- visual 
 opt.number = true
-opt.relativenumber = true
+opt.relativenumber = true 
 opt.termguicolors = true
 opt.signcolumn = "yes"
 

@@ -2,7 +2,7 @@ local mapKey = require("utils.keyMapper").mapKey
 
 
 -- Neotree toggle
-mapKey('<leader>e', ':NvimTreeOpen<cr>')
+mapKey('<leader>e', ':NvimTreeToggle<cr>')
 
 -- pane navigation
 mapKey('<C-h>', '<C-w>h')  -- Left (Ctrl+h를 누르면, Ctrl+w,h를 누른 효과)
